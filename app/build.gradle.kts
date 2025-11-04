@@ -41,6 +41,7 @@ android {
         compose = true
         viewBinding = true
     }
+
 }
 
 dependencies {
@@ -60,5 +61,8 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    //noinspection UseTomlInstead (Hacemos que compile sin Warnings)
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
 
 }
