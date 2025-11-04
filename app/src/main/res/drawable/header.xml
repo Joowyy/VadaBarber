@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Color de fondo azul pastel -->
-    <solid android:color="#B8D0EB" />
 
-    <!-- Borde gris claro
-    <stroke
-        android:width="1dp"
-        android:color="@color/black" />  -->
+    <solid android:color="@color/pastel_pink" />
+
+    <gradient
+        android:startColor="#270a2b"
+        android:centerColor="#e5c5eb"
+        android:endColor="#edd3f0"
+        android:angle="270"/>
 
     <!-- Padding interno -->
     <padding
-        android:left="20dp"
-        android:top="25dp"
+        android:left="2dp"
+        android:top="45dp"
         android:right="20dp"
         android:bottom="25dp" />
 </shape>

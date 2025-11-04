@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">VadaBarber</string>
-    <string name="titulo_principal">VADA - BARBER</string>
+    <string name="titulo_principal">VADA BARBER</string>
+    <string name="text_nombre">Nombre</string>
+    <string name="text_correo">Correo electrónico</string>
+    <string name="text_psswd">Contraseña</string>
+    <string name="btn_registro">REGISTRARSE</string>
+
 </resources>
