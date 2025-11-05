@@ -8,4 +8,6 @@
     <string name="btn_login">INICIAR SESION</string>
     <string name="btn_reg_log">¿Ya tienes una cuenta?\nInicia sesion</string>
     <string name="btn_log_reg">¿No tienes una cuenta?\nRegístrate</string>
+    <string name="text_bienvenida">Bienvenido {user}</string>
+    <string name="text_btn_reserva">Reserva</string>
 </resources>

@@ -105,7 +105,7 @@
 
     <!-- REGISTRO -->
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonReg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/btn_registro"

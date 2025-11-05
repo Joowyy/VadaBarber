@@ -24,6 +24,13 @@ class RegisterActivity : ComponentActivity() {
 
         }
 
+        binding.buttonReg.setOnClickListener {
+
+            var intentHome = Intent(this, HomeActivity::class.java)
+            startActivity(intentHome)
+
+        }
+
     }
 
 }
