@@ -1,5 +1,6 @@
 package com.example.vadabarber
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import com.example.vadabarber.databinding.LoginActivityBinding
@@ -14,6 +15,13 @@ class LoginActivity : ComponentActivity() {
 
         binding = LoginActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.cambioDeLogAReg.setOnClickListener {
+
+            var intentSwapReg = Intent(this, RegisterActivity::class.java)
+            startActivity(intentSwapReg)
+
+        }
 
     }
 

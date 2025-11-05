@@ -22,6 +22,60 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
+    <!-- NOMBRE -->
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="283dp"
+        android:layout_height="52dp"
+        android:background="@drawable/edittext_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lobster_italic"
+        android:text="@string/text_nombre"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <!-- CORREO -->
+    <TextView
+        android:id="@+id/correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/lobster_italic"
+        android:text="@string/text_correo"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextCorreo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombre"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <EditText
+        android:id="@+id/editTextCorreo"
+        android:layout_width="283dp"
+        android:layout_height="52dp"
+        android:background="@drawable/edittext_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo"
+        app:layout_constraintVertical_bias="0.329" />
+
     <!-- CONTRASENIA -->
     <EditText
         android:id="@+id/editTextPsswd"
@@ -32,80 +86,53 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titulo"
-        app:layout_constraintVertical_bias="0.378" />
+        app:layout_constraintVertical_bias="0.555" />
 
     <TextView
-        android:id="@+id/psswdLog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/lobster_italic"
-        android:text="@string/text_psswd"
-        android:textColor="@color/black"
-        android:textSize="26sp"
-        android:layout_marginTop="70dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextPsswd"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNombre"
-        app:layout_constraintVertical_bias="0.428" />
-
-    <!-- CORREO -->
-    <TextView
-        android:id="@+id/correoLog"
+        android:id="@+id/psswd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/lobster_italic"
-        android:text="@string/text_correo"
+        android:text="@string/text_psswd"
         android:textColor="@color/black"
         android:textSize="26sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNombre"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPsswd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titulo"
-        app:layout_constraintVertical_bias="0.937" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextCorreo"
+        app:layout_constraintVertical_bias="0.9" />
 
-    <EditText
-        android:id="@+id/editTextNombre"
-        android:layout_width="283dp"
-        android:layout_height="52dp"
-        android:background="@drawable/edittext_style"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titulo"
-        app:layout_constraintVertical_bias="0.153" />
-
-    <!-- LOGIN -->
+    <!-- REGISTRO -->
     <Button
-        android:id="@+id/buttonLog"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/btn_registro"
         android:fontFamily="@font/lobster_italic"
-        android:text="@string/btn_login"
+        android:text="@string/btn_registro"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPsswd"
-        app:layout_constraintVertical_bias="0.379" />
+        app:layout_constraintVertical_bias="0.277" />
 
-    <!-- SWAP REGISTER -->
+    <!-- BTN CAMBIO LOGIN -->
     <TextView
-        android:id="@+id/cambioDeLogAReg"
+        android:id="@+id/cambioDeRegALog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/lobster_italicbold"
+        android:text="@string/btn_reg_log"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
         android:clickable="true"
         android:focusable="true"
-        android:fontFamily="@font/lobster_italicbold"
-        android:text="@string/btn_log_reg"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLog" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
