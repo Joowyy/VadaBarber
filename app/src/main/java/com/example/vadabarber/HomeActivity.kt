@@ -1,11 +1,13 @@
 package com.example.vadabarber
 
 import android.os.Bundle
-import androidx.activity.ComponentActivity
+import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.NavHostController
+import androidx.navigation.findNavController
 import com.example.vadabarber.databinding.HomeActivityBinding
 import com.example.vadabarber.databinding.RegisterActivityBinding
 
-class HomeActivity : ComponentActivity() {
+class HomeActivity : AppCompatActivity() {
 
     private lateinit var binding : HomeActivityBinding
 
@@ -15,6 +17,10 @@ class HomeActivity : ComponentActivity() {
 
         binding = HomeActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.btnReserva.setOnClickListener {
+
+        }
 
     }
 

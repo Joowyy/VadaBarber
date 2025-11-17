@@ -2,10 +2,10 @@ package com.example.vadabarber
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.ComponentActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.example.vadabarber.databinding.LoginActivityBinding
 
-class LoginActivity : ComponentActivity() {
+class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding : LoginActivityBinding
 

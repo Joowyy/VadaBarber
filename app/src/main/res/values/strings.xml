@@ -10,4 +10,6 @@
     <string name="btn_log_reg">¿No tienes una cuenta?\nRegístrate</string>
     <string name="text_bienvenida">Bienvenido {user}</string>
     <string name="text_btn_reserva">Reserva</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
