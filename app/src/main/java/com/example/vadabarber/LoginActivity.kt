@@ -20,6 +20,7 @@ class LoginActivity : AppCompatActivity() {
         binding.buttonLog.setOnClickListener {
 
             var intentContinue = Intent(this, HomeActivity::class.java)
+            startActivity(intentContinue)
 
         }
 
