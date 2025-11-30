@@ -3,6 +3,7 @@ package com.example.vadabarber
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.vadabarber.databinding.FragmentHomeBinding
 import com.example.vadabarber.databinding.LoginActivityBinding
 
 class LoginActivity : AppCompatActivity() {
@@ -15,6 +16,12 @@ class LoginActivity : AppCompatActivity() {
 
         binding = LoginActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.buttonLog.setOnClickListener {
+
+            var intentContinue = Intent(this, HomeActivity::class.java)
+
+        }
 
         binding.cambioDeLogAReg.setOnClickListener {
 

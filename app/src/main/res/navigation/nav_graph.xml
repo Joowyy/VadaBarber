@@ -3,10 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/reservaFragment">
+    app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/reservaFragment"
         android:name="com.example.vadabarber.ReservaFragment"
         android:label="fragment_reserva"
         tools:layout="@layout/fragment_reserva" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.vadabarber.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
 </navigation>
